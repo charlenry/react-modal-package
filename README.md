@@ -16,11 +16,14 @@ import Modal from "@charlenry/react-modal-package";
 
 ## Usage
 
-This react modal takes in three props :
+This react modal takes in six props :
 
 - `displayState` - The open or closed state of the modal. It can be manage with a local state like in the example below. The two values are <b>block</b> and <b>none</b>. The modal is Hidden by default.
 - `handleClose` - The callback that handles the close button of the modal.
 - `message` - The message to display in the modal
+- `bgColor` - The background color of the modal (optional)
+- `textColor` - The text color of the message (optional)
+- `btnColor` - The basic color of the close button (optional)
 
 The modal can be style in the Modal.scss file of the module. So you need to install sass.
 
@@ -56,6 +59,9 @@ function App() {
         displayState={modalDisplayState}
         handleClose={handleCloseModal}
         message="You have successfully used this modal!"
+        bgColor=""
+        textColor=""
+        btnColor=""
       />
     </div>
   );
