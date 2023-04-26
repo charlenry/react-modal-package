@@ -25,7 +25,7 @@ This react modal takes in six props :
 - `textColor` - The text color of the message (optional)
 - `btnColor` - The basic color of the close button (optional)
 
-The modal can be style in the Modal.scss file of the module. So you need to install sass.
+The modal needs sass to run. See below how to install it.
 
 ```shell
 npm install sass
