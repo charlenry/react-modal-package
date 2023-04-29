@@ -3,10 +3,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/charlenry"
   },
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "This react component renders a modal with a message centered inside it with a close button.",
   "main": "dist/Modal.js",
-  "module": "dist/Modal.js",
+  "module": "Modal.d.ts",
   "files": [
     "dist",
     "README.md"
@@ -30,10 +30,6 @@
     "url": "https://github.com/charlenry/react-modal-package/issues"
   },
   "homepage": "https://github.com/charlenry/react-modal-package#readme",
-  "peerDependencies": {
-    "prop-types": "^15.8.1",
-    "sass": "^1.62.0"
-  },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.4",
