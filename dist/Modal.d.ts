@@ -1,1 +1,0 @@
-declare module '@charlenry/dummy-package';
